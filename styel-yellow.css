@@ -2945,22 +2945,19 @@ color: #D01D15;
 
 /* タグクラウド風カテゴリー */
 
-span.label-size:hover {
-  background: #f5f5f5;
-}
-
-.Label .label-size {
+.label-size a {
+    padding-left: 5px;
     border: 1px dotted #ccc;
-	float: left;
-	font-size: 12px;
-	list-style: none outside none;
+    float: left;
+    font-size: 12px;
+    list-style: none outside none;
     margin: 0 7px 7px 0px;
     padding: 5px 10px 6px 10px;
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.label-size a {
-padding-left: 5px;
+label-size a:hover {
+  background: #f5f5f5;
 }
 
 
