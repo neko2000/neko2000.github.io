@@ -11,6 +11,7 @@ Version:  1.0
 <Variable name="maincolor" description="Main Color" type="color" default="#FDD835" value="#fdd835"/>
 
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}body{line-height:1;display:block;}*{margin:0;padding:0;}html{display:block;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:&#39;&#39;;content:none;}table{border-collapse:collapse;border-spacing:0;}
 /* FRAMEWORK */
@@ -779,7 +780,7 @@ padding: 11px 14px;
 margin: 15px 3px 50px 0;
 }
 .pagenavi .current, .pagenavi .pages, .pagenavi a:hover {
-background:$(maincolor);
+background:#fdd835;
 color: #fff;
 }
 .pagenavi .pages {
@@ -829,7 +830,7 @@ height: 0px;
 position: absolute;
 left: 0;
 bottom: -2px;
-border-bottom: 2px solid $(maincolor);
+border-bottom: 2px solid #fdd835;
 }
 .sidebar .widget {
 margin: 0 0 35px;
@@ -973,7 +974,7 @@ margin: 30px 0 0;
 }
 
 .social span a:hover {
-color: $(maincolor);
+color: #fdd835;
 }.social {
 margin-bottom:20px;
 text-align: center;
@@ -2128,13 +2129,13 @@ p.white {
 
 .dropmenu li a .fa {
 	font-size:18px;
-	color: $(maincolor);
+	color: #fdd835;
 }
 
 
 ul.dropmenu li a:hover {
     text-decoration: none;
-	color: $(maincolor);
+	color: #fdd835;
 }
 
 .dropmenu li ul {
@@ -2375,7 +2376,7 @@ color:#646464;
 .date-outer:first-child .post-outer:first-child h2.entry-title:before {
 content: "\f0da";
 font-family: FontAwesome;
-color: $(maincolor);
+color: #fdd835;
 margin-right: 10px;
 }
 
@@ -2947,8 +2948,8 @@ color: #D01D15;
 
         background-image: -moz-linear-gradient(left top , #FEDA71, #FEBA47);
 
-        border-bottom: 1px solid $(maincolor);
-border-left: 1px solid $(maincolor);
+        border-bottom: 1px solid #fdd835;
+border-left: 1px solid #fdd835;
 
         content: "";
 
@@ -2971,7 +2972,7 @@ border-left: 1px solid $(maincolor);
     .Label .label-size:after {
 
         background: none repeat scroll 0 0 #FFFFFF;
-border: 1px solid $(maincolor);
+border: 1px solid #fdd835;
 border-radius: 4.167em 4.167em 4.167em 4.167em;
 /* box-shadow: 0 1px 0 #FAEABA; */
 content: "";
@@ -2985,23 +2986,23 @@ z-index: 9999;
     }
 
 span.label-size:hover {
-background: $(maincolor);
+background: #fdd835;
 }
 
 
 
 span.label-size:hover:before {
-background: $(maincolor);
+background: #fdd835;
 }
 
     .Label .label-size {
 background-image: -moz-linear-gradient(center top , #FEDA71, #FEBA47);
-border-bottom: 1px solid $(maincolor);
+border-bottom: 1px solid #fdd835;
 border-radius: 0 0.25em 0.25em 0;
-border-right: 1px solid $(maincolor);
-border-top: 1px solid $(maincolor);
+border-right: 1px solid #fdd835;
+border-top: 1px solid #fdd835;
 /* box-shadow: 0 1px 0 #FAEABA inset, 0 1px 1px rgba(0, 0, 0, 0.1); */
-color: $(maincolor);
+color: #fdd835;
 float: left;
 font-family: 'Roboto Slab',Helvetica,Arial,sans-serif;
 font-size: 13px;
@@ -3065,7 +3066,7 @@ height: 30px;
 margin-top: 10px;
 border-left: none;
 border-top: none;
-border-bottom: 1px solid $(maincolor);
+border-bottom: 1px solid #fdd835;
 padding-right:0px;
 }
 .sb-search-input::-webkit-input-placeholder {
@@ -3147,7 +3148,7 @@ input[type="search"]:focus{border:none;-webkit-box-shadow: none;
 box-shadow: none;}
 
 input[type="search"].sb-search-input:focus {
-border-bottom: 1px solid $(maincolor);
+border-bottom: 1px solid #fdd835;
 }
 
 .labelhome {
@@ -3213,7 +3214,7 @@ margin: 0 0 20px 0;
 text-align: center;
 font: 400 13px 'Lato', Helvetica, Arial, sans-serif;
 width: 165px;
-color: $(maincolor);
+color: #fdd835;
 letter-spacing: 2px;
 }
 
