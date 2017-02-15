@@ -60,8 +60,10 @@ left:223px;
 	padding:0 0px 0 0;
 }
 
-strong,b{font-weight:bold;
+strong,b{
+	font-weight:bold;
 }
+
 cite,em,i{font-style:italic;
 }
 a:link {color: #6a6359;text-decoration:none;outline:none;transition:all 0.25s;-moz-transition:all 0.25s;-webkit-transition:all 0.25s;
@@ -327,6 +329,10 @@ font-size: 20px!important;
 line-height:30px!important;
 }
 
+.post-entry strong,
+.post-entry b{
+    background: #fff9db;
+}
 
 .post-entry ol,
 .post-entry ul {
@@ -366,6 +372,7 @@ video {
 	margin-bottom: 0;
 	max-width: 100%;
 }
+
 
 
 /* static_page------------- */
@@ -1346,8 +1353,7 @@ z-index:999;
 
 .related_title {
 	font-size: 14px;
-	margin-top: 5px;
-	margin-bottom: 2em;
+    margin: 5px 5px 2em;
 }
 
 .related_title:hover{
@@ -2287,8 +2293,17 @@ margin-bottom:30px;
 .mbt-pager li { width: 50%; display: inline; float: left; text-align: center; } 
 .mbt-pager li a { position: relative; min-height: 77px; display: block; padding: 15px 46px 15px; outline:none; text-decoration:none;}
 .mbt-pager li i { color: #ccc; font-size: 18px; }
-.mbt-pager li a strong { display: block; font-size: 20px; color: #ccc; letter-spacing: 0.5px; font-weight: bold; text-transform: uppercase; margin-bottom:10px;}
-.mbt-pager li a span { font-size: 15px; color: #666;  margin:0px;} 
+.mbt-pager li a strong {
+	font-family: 'Open Sans', serif;
+	display: block;
+	font-size: 20px;
+	color: #ccc;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom:10px;
+}
+.mbt-pager li a span { font-size: 100%; color: #666;  margin:0px;} 
 .mbt-pager li a:hover span, 
 .mbt-pager li a:hover i { color: #ffffff; } 
 .mbt-pager li.previous i { float:left; margin-top:15%; margin-left:5%; } 
@@ -2310,6 +2325,7 @@ line-height: 54px;
 font-weight: 700;
 margin-bottom: 0;
 letter-spacing: 2px;
+font-family: 'Open Sans', serif;
 }
 
 #blog-pager{display:none;}
